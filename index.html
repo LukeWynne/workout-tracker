@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -639,11 +640,25 @@
             }
 
             .calendar-grid {
-                gap: 5px;
+                gap: 3px;
+            }
+
+            .calendar-day {
+                padding: 5px;
+                font-size: 0.85rem;
             }
 
             .day-number {
-                font-size: 1rem;
+                font-size: 0.9rem;
+            }
+
+            .day-workout-count {
+                font-size: 0.6rem;
+            }
+
+            .calendar-day-header {
+                font-size: 0.7rem;
+                padding: 5px;
             }
 
             .form-row {
@@ -659,6 +674,21 @@
                 flex-direction: column;
                 gap: 15px;
                 align-items: flex-start;
+            }
+
+            .set-row {
+                grid-template-columns: 60px 1fr 1fr;
+                gap: 8px;
+                padding: 10px;
+            }
+
+            .calendar-nav {
+                flex-wrap: wrap;
+            }
+
+            .nav-btn {
+                padding: 8px 12px;
+                font-size: 0.85rem;
             }
         }
     </style>
@@ -1302,3 +1332,4 @@
     </script>
 </body>
 </html>
+
